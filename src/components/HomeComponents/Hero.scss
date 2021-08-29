@@ -1,0 +1,35 @@
+.hero-section {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding-left: 8vw;
+    color: #fff;
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h3 {
+    
+        max-width: 100%;
+        font-size: 1.7em;
+        margin: 2rem 0;
+    }
+}
+
+.action-btn {
+    a {
+        padding: 10px 20px;
+        background: #003f8c;
+        color: #fff;
+        font-size: .875em;
+        text-decoration: none;
+        font-weight: bold;
+        min-width: 196px;
+        display: block;
+        text-align: center;
+    }
+}

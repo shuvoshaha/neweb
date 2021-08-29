@@ -1,0 +1,54 @@
+.number_section{
+    padding: 80px 0;
+}
+
+.number_content{
+
+ h1{
+    font-size: 3vw;
+    font-weight: 500;
+    color: #0b214a;
+    max-width: 837px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+}
+
+.number_row{
+  display: flex;
+  justify-content: center;
+  padding: 4vw 0 2vw;
+}
+
+.number_item{
+    &:nth-child(2){
+        margin: 0 50px;
+    }
+
+    p{
+
+        font-size: 1rem;
+    margin-bottom: 0;
+    color: #0b214a;
+
+        span{
+            font-size: 44px;
+            color: #0b214a;
+            font-weight: 700;
+        }
+    }
+}
+
+.number_link{
+    width: 200px;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #0073ec;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #0073ec;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}

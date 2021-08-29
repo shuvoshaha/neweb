@@ -1,0 +1,83 @@
+.featured_section{
+    margin-top: -80px;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 991px){
+        flex-direction: column;
+    }
+
+}
+
+.image_wrap {
+    width: 380px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    margin-right: 50px;
+
+    @media screen and (max-width: 991px){
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.text_wrap {
+
+    h6 {
+        font-size: 20px;
+        color: #2196f3;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        color: #0b214a;
+        font-weight: 500;
+        line-height: 25.2px;
+        
+    }
+
+    p {
+        margin-top: 10px;
+        color: #697a89;
+        font-size: 16px;
+        margin-bottom: 1rem;
+
+    }
+
+    a {
+
+        position: relative;
+        position: relative;
+        color: #2196f3;
+        text-decoration: none;
+        padding-left: 38px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+
+        &::after {
+            content: '';
+            background: url('https://www.docker.com/sites/all/themes/docker/assets/images/icons/cta-arrow.svg');
+            position: absolute;
+            left: 0;
+            width: 23px;
+            top: 4px;
+            height: 18px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
