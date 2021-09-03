@@ -1,5 +1,7 @@
 .featured_section{
-    margin-top: -80px;
+   
+    max-width: 1274px;
+    margin: -80px auto 0;
 }
 
 .card {
@@ -16,7 +18,7 @@
 }
 
 .image_wrap {
-    width: 380px;
+    width: 70%;
     max-width: 100%;
     background-position: center;
     background-size: cover;

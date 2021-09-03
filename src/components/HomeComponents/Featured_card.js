@@ -10,11 +10,12 @@ const Featured_card = () => {
     useEffect(() =>{
         AOS.init({ duration: 2000 })
     }, [])
+    
     return (
         <div className="featured_section">
             <div className="container">
                 <div  className="card">
-                    <div className="image_wrap" style={{ backgroundImage: "url(" + `${trusted_img}` + ")" }} ></div>
+                    <div className="image_wrap" style={{ backgroundImage: `url(${trusted_img})` }} ></div>
                     <div className="text_wrap">
                         <h6>WHAT'S NEW</h6>
                         <h4 data-aos-duration="3000" data-aos="fadeUp">Docker Expands Trusted Content Offerings for Developers</h4>
